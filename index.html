@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mo{
+            color: darkkhaki;
+            text-align: center;
+            text-decoration: overline underline;
+        }
+        #ex{
+            text-align: center;
+            color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="mo">MULTIPLICATION OPERATIONS</h1>
+    <h2 id="ex">Let us perform some experiments with multiplication.</h2>
+    <h3 id="d1"></h3>
+    <h3 id="d2"></h3>
+    <h3 id="d3"></h3>
+    <h3 id="d4"></h3>
+    <script>
+        function f1(){
+            return "1st Experiment :"
+        };
+        document.getElementById("d1").innerHTML=f1();
+         function f2(a,b) {
+                return a*b
+            };
+            document.getElementById("d2").innerHTML = f2(5,7);
+           function f3() {
+                return "2nd Experiment :"
+            };
+            document.getElementById("d3").innerHTML = f3();
+            //ygggjgj
+            function f4(a, b) {
+                if (a===undefined){
+                    a=2;
+                }
+                return a * b
+            };
+            document.getElementById("d4").innerHTML = f4(5);  
+       
+    </script>
+</body>
+</html>
